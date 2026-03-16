@@ -55,7 +55,6 @@ schedule:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
-    # === 综合新闻媒体类 ===
   - id: "toutiao"
     name: "今日头条"
   - id: "baidu"
@@ -75,7 +74,6 @@ platforms:
   - id: "kaopu"
     name: "靠谱新闻"
 
-  # === 财经投资类 ===
   - id: "wallstreetcn-hot"
     name: "华尔街见闻 最热"
   - id: "wallstreetcn-quick"
@@ -93,7 +91,6 @@ platforms:
   - id: "fastbull"
     name: "快讯通"
 
-  # === 社交/短视频/娱乐类 ===
   - id: "weibo"
     name: "微博"
   - id: "douyin"
@@ -107,7 +104,6 @@ platforms:
   - id: "hupu"
     name: "虎扑"
 
-  # === 科技类平台 ===
   - id: "ithome"
     name: "IT之家"
   - id: "juejin"
@@ -129,26 +125,18 @@ platforms:
   - id: "producthunt"
     name: "ProductHunt"
 
-  # === 其他/工具类 ===
   - id: "chongbuluo"
-    name: "虫部落"
+  - name: "虫部落"
 
-   NewsNow的信息源在11月20日更新：
-
-    id: "tencent-hot"
-    name: "腾讯新闻 综合早报"
+  - id: "tencent-hot"
+  - name: "腾讯新闻 综合早报"
     
-    id: "cls-telegraph"
-    name: "财联社 电报"
+  - id: "cls-telegraph"
+  - name: "财联社 电报"
     
-    id: "cls-depth"
-    name: "财联社 深度"
+  - id: "cls-depth"
+  - name: "财联社 深度"
     
-    id: "fastbull-express"
-    name: "法布财经 快讯"
-    
-    id: "fastbull-news"
-    name: "法布财经 头条"
 
 
 
